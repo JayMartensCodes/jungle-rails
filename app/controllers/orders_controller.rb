@@ -42,10 +42,10 @@ class OrdersController < ApplicationController
       stripe_charge_id: stripe_charge.id, # returned by stripe
     )
 
-    enhanced_cart.each do |entry|
+    enhanced_cart.each do |entry| 
       product = entry[:product]
       quantity = entry[:quantity]
-      order.line_items.new(
+      order.line_items.new(  
         product: product,
         quantity: quantity,
         item_price: product.price,
