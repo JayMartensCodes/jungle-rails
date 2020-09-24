@@ -2,6 +2,10 @@
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
+## Final Product
+
+!["Showing the front page of the app"](./docs/front-page.png)
+!["Showing the cart"](./docs/cart.png)
 
 ## Setup
 
